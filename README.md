@@ -7,9 +7,9 @@
 **기간**: 12월 1일 ~ 12월 21일, 주 1회 (일요일 21시)
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/0a121a2a-603e-491c-81d9-aad9f7b30982" width="30%">
-  <img src="https://github.com/user-attachments/assets/66d01cf2-3ace-438b-9deb-5752645f6240" width="30%">
   <img src="https://github.com/user-attachments/assets/6bed4dd1-6cb2-49ff-9f41-65baee81e980" width="30%">
+  <img src="https://github.com/user-attachments/assets/66d01cf2-3ace-438b-9deb-5752645f6240" width="30%">
+  <img src="https://github.com/user-attachments/assets/0a121a2a-603e-491c-81d9-aad9f7b30982" width="30%">
 </p>
 
 
