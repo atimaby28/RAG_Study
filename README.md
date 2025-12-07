@@ -12,7 +12,11 @@
   <img src="https://github.com/user-attachments/assets/0a121a2a-603e-491c-81d9-aad9f7b30982" width="30%">
 </p>
 
+<br />
 
+![study](https://github.com/user-attachments/assets/f2b1663a-de37-4636-aa17-39bdbcbb3409)
+
+<br />
 
 ---
 
