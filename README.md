@@ -67,7 +67,9 @@ RAG는 최신 정보를 효과적으로 활용하기 위해 외부 정보를 참
 
 단순 LLM과 RAG 시스템의 가장 큰 차이는 **지식 활용 방식**입니다.
 
-<img width="1280" height="853" alt="다운로드 (1)" src="https://github.com/user-attachments/assets/2a8ffabb-f986-4238-9574-2480659edb60" />
+<div align="center" style="max-width:800px; margin:auto;">
+  <img src="https://github.com/user-attachments/assets/2a8ffabb-f986-4238-9574-2480659edb60" style="width:100%; height:auto;" />
+</div>
 
 <br />
 
@@ -123,6 +125,12 @@ RAG는 정보 검색이 필요한 질의, 사실 검증이 중요한 작업, 최
 RAG의 핵심은 정보 검색(Retrieval)과 텍스트 생성(Generation)을 유기적으로 결합하는 것입니다.
 
 <img width="1280" height="853" alt="다운로드 (2)" src="https://github.com/user-attachments/assets/73409bf7-d708-4a5a-b31a-6b98fade9892" />
+
+<div align="center" style="max-width:800px; margin:auto;">
+  <img src="https://github.com/user-attachments/assets/73409bf7-d708-4a5a-b31a-6b98fade9892" style="width:100%; height:auto;" />
+  
+</div>
+
 
 <br />
 
