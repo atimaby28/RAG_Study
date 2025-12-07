@@ -67,6 +67,10 @@ RAG는 최신 정보를 효과적으로 활용하기 위해 외부 정보를 참
 
 단순 LLM과 RAG 시스템의 가장 큰 차이는 **지식 활용 방식**입니다.
 
+<img width="1280" height="853" alt="다운로드 (1)" src="https://github.com/user-attachments/assets/2a8ffabb-f986-4238-9574-2480659edb60" />
+
+<br />
+
 ### 전통적인 LLM
 - 학습 시점에 매개변수에 저장된 정적 지식만으로 답변 생성
 - 훈련 이후 등장한 새로운 사실이나 특정 도메인의 전문 지식 반영 어려움
@@ -118,6 +122,10 @@ RAG는 정보 검색이 필요한 질의, 사실 검증이 중요한 작업, 최
 
 RAG의 핵심은 정보 검색(Retrieval)과 텍스트 생성(Generation)을 유기적으로 결합하는 것입니다.
 
+<img width="1280" height="853" alt="다운로드 (2)" src="https://github.com/user-attachments/assets/73409bf7-d708-4a5a-b31a-6b98fade9892" />
+
+<br />
+
 ### 전통적인 정보검색(IR) vs RAG
 - **전통적 IR**: 문서 검색 결과를 단순히 나열
 - **RAG**: 검색 결과를 LLM의 입력 맥락에 직접 통합하여 최종 응답 생성
@@ -149,11 +157,20 @@ RAG에서 활용되는 검색은 단순 키워드 매칭이 아닌 **Dense 벡�
 
 RAG는 생성 과정에서 **참조한 문서 출처를 함께 제공**할 수 있어, 응답의 투명성과 신뢰성을 높입니다.
 
+<img width="1280" height="721" alt="다운로드 (3)" src="https://github.com/user-attachments/assets/40455ba5-9e68-4d0e-98f8-8f8ca0e33c30" />
+
+<br />
+
 ---
 
 ## RAG 프로세스
 
 RAG는 단계별로 이어지는 파이프라인 구조를 따릅니다.
+
+<img width="1280" height="853" alt="다운로드 (4)" src="https://github.com/user-attachments/assets/9925126a-7abc-417d-bb02-9863ad2dd4dd" />
+
+<br />
+
 
 ### 단일 질의 처리 과정
 
@@ -216,6 +233,10 @@ RAG는 "완벽한 정답"보다는 주어진 제약 조건 내에서 "충분히 
 
 RAG 시스템의 성능은 어떤 데이터를 사용하고, 그 데이터를 얼마나 잘 전처리하느냐에 크게 좌우됩니다.
 
+<img width="1280" height="853" alt="다운로드 (4)" src="https://github.com/user-attachments/assets/be6a5f2e-8391-4147-8944-a0fe14da4050" />
+
+<br />
+
 ### 데이터 소스 유형
 
 1. **정형 데이터**: 관계형 데이터베이스 테이블처럼 구조화된 정보
@@ -252,6 +273,11 @@ RAG 시스템의 성능은 어떤 데이터를 사용하고, 그 데이터를 �
 ## 벡터 임베딩과 벡터 데이터베이스
 
 RAG의 핵심 기반은 텍스트를 기계가 다룰 수 있는 **고차원 벡터 표현(임베딩)**으로 변환하는 과정입니다.
+
+<img width="1280" height="853" alt="다운로드 (6)" src="https://github.com/user-attachments/assets/f3edf700-f9b0-43b6-9655-a2b8a32e084f" />
+
+<br />
+
 
 ### 벡터 임베딩
 
@@ -320,6 +346,11 @@ RAG에서는 사용자의 질의와 문서 조각을 같은 임베딩 공간에 
 
 ## 검색기(Retriever)와 재순위화(Re-ranker)
 
+<img width="1280" height="853" alt="다운로드 (7)" src="https://github.com/user-attachments/assets/733986dc-4cd0-47bf-878b-c2105a05c84c" />
+
+<br />
+
+
 ### 검색기(Retriever)
 
 검색기는 RAG 시스템의 핵심 구성 요소로, 사용자의 질의와 관련된 문서를 벡터 데이터베이스에서 빠르고 효율적으로 찾아냅니다.
@@ -367,6 +398,10 @@ Dense와 Sparse 검색은 서로 보완적인 특성을 가지므로, 실무에�
 
 LLM 응답 생성기는 RAG 파이프라인의 마지막 단계로, 검색된 컨텍스트와 사용자 질의를 결합하여 사실 기반이면서도 자연스러운 답변을 생성하는 핵심 모듈입니다.
 
+<img width="1280" height="853" alt="다운로드 (8)" src="https://github.com/user-attachments/assets/3295c89f-fb67-48d1-947f-78b6395143a9" />
+
+<br />
+
 ### 주요 역할
 
 - 검색된 자료를 이해하고 재구성하여 매끄러운 문장으로 전달
@@ -411,6 +446,10 @@ LLM 응답 생성기는 RAG 파이프라인의 마지막 단계로, 검색된 �
 ---
 
 ## 문서 Chunking 전략
+
+<img width="1280" height="853" alt="다운로드 (9)" src="https://github.com/user-attachments/assets/6ff2a13a-1ab3-465a-aec8-3b3bb822f64b" />
+
+<br />
 
 문서 청킹(Chunking)은 RAG 시스템의 검색 성능을 좌우하는 핵심 전처리 단계입니다. 청킹이 제대로 되지 않으면:
 - 중요한 개념이 여러 조각으로 흩어짐
@@ -471,6 +510,10 @@ LLM 응답 생성기는 RAG 파이프라인의 마지막 단계로, 검색된 �
 ## 메타데이터 설계
 
 메타데이터(metadata)는 단순히 문서에 붙는 태그가 아니라, RAG 시스템의 검색 정확도와 응답 품질을 좌우하는 전략적 자산입니다.
+
+<img width="1280" height="853" alt="다운로드 (10)" src="https://github.com/user-attachments/assets/e3f495a7-2762-4aff-bfa1-8500a5e0198e" />
+
+<br />
 
 ### 주요 메타데이터 필드
 
@@ -583,6 +626,10 @@ RAG 시스템의 단일 쿼리 처리는 일반적인 LLM과 달리 외부 지�
 
 RAG 시스템에서 검색 실패는 피할 수 없는 상황입니다. 지식베이스에 문서가 없거나, 질의가 모호하거나, 벡터 검색의 한계 때문에 적절한 컨텍스트를 찾지 못하는 경우가 발생합니다.
 
+<img width="1280" height="853" alt="다운로드 (11)" src="https://github.com/user-attachments/assets/a9efc3a8-e1e7-497f-9e45-53d7f451d802" />
+
+<br />
+
 ### 1. 질의 확장 & 재검색
 
 **다중 쿼리 재작성(Multi-Query Rewriting)**
@@ -640,6 +687,10 @@ RAG 시스템에서 검색 실패는 피할 수 없는 상황입니다. 지식�
 
 ## RAG의 장점
 
+<img width="1280" height="853" alt="다운로드 (12)" src="https://github.com/user-attachments/assets/6bebbb00-80cc-4814-ae39-7da13c356f72" />
+
+<br />
+
 ### 1. 최신성
 
 전통적인 LLM은 훈련 시점 이후의 지식을 반영하지 못하지만, RAG는 외부 지식베이스나 실시간 데이터 소스에 접근할 수 있습니다.
@@ -686,6 +737,10 @@ RAG는 생성된 답변에 구체적인 출처를 명시하여 사용자가 직�
 ---
 
 ## RAG의 한계와 과제
+
+<img width="1280" height="853" alt="다운로드 (13)" src="https://github.com/user-attachments/assets/280e487d-c831-4d4e-91ab-912f22db5121" />
+
+<br />
 
 ### 1. 데이터 품질 의존성
 
