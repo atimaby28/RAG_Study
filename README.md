@@ -18,7 +18,7 @@
 
 <br />
 
-![study2](https://github.com/user-attachments/assets/41004e30-d89b-4c05-b020-cc9469222ff0)
+![study2](https://github.com/user-attachments/assets/b62796a8-5172-4791-a456-b4447a78189e)
 
 <br />
 
