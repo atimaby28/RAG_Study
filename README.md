@@ -22,6 +22,10 @@
 
 <br />
 
+![study3](https://github.com/user-attachments/assets/6c2dd4e0-935f-4fd6-b6f8-f631575c2295)
+
+<br />
+
 ## 회고
 
 마지막에 RAG를 활용하여 각자 만든 것들을 발표하였다. <br />
