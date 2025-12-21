@@ -22,6 +22,18 @@
 
 <br />
 
+## 회고
+
+마지막에 RAG를 활용하여 각자 만든 것들을 발표하였다. <br />
+
+https://www.notion.so/artesuh/RAG-174e1ea9c279808db9fcde4a6845cd0a
+
+https://github.com/exdevcomm-io/rag-chatbot-study
+
+등.. 
+
+훨씬 화려하고 멋있는 것들도 많았지만, 공통적으로 공부했던 내용이면서 이해하기 쉬웠던 두 프로젝트를 남긴다.
+
 ---
 
 ## RAG(Retrieval-Augmented Generation)란?
